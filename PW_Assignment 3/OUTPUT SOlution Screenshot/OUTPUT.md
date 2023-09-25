@@ -4,7 +4,7 @@
 
 
 # Solution 2
-[Audio and video playback](/PW_Assignment%203/OUTPUT%20SOlution%20Screenshot/image-2.png)
+![autdio video](image-6.png)
 
 # Solution 3
 ![Infinitely playback](image-3.png)
