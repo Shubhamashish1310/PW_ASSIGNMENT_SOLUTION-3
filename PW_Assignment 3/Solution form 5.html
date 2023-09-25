@@ -1,0 +1,96 @@
+<!-- Ka Create a sign-up and sign-in form with proper validationa
+Ua Sign up form should have a first name, last name, email, password, confirm password, age, gender, 
+and agree to terms and conditions fields at minimum (You can add any other if you like.
+a Sign in form should have email, password fields  
+NOTE: Validation is a must  
+Ex: First name, last name, email cannot be less than 3 characters, age cannot be negative and cannot be 
+greater than 150, fields are required, etc..,
+Assignment Question -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <style>
+        body{
+            border: 2px solid black;
+            border-radius: 23px;
+            margin: 12px;
+            padding: 20px;
+            display: inline-block;
+            background-color: rgb(223, 245, 242);
+        }
+
+        .button{
+            display: block;
+            padding-top: 10px;
+            text-align: center;
+            
+
+        }
+    </style>
+</head>
+<body>
+  <form action="/Solution 5.html">   <!-- for backend storage  --> 
+
+        <label for="FirstName"> 
+            <div>
+                First Name:  <input type="text"  id="FirstName" minlength="3" max="25" placeholder="Shubham" required>
+            </div>
+        </label>
+        <br>
+        <label for="LastName">
+            <div>
+                Last Name: <input type="text"  id="LastName" minlength="3" max="25" placeholder="Ashish">
+            </div>
+        </label>
+        <br>
+        <label for="Email">
+            <div>
+               Email: <input type="email" name="Enteremail" id="Email"  placeholder="shubham.ashish13@gmail.com" required/>
+            </div>
+            
+        </label>
+        <br>
+        <label for="Password">
+            <div>
+               Password: <input type="password" name="EnterPassword" id="Email" minlength="8" max="20" placeholder="**********" required/>
+            </div>
+        </label>
+<br>
+        <label for="ConfirmPassword">
+            <div>
+              Confirm Password: <input type="password" name="Confirm Password" id="ConfirmPassword" minlength="8" max="20" placeholder="**********" required/>  <!-- required are used beacuse field is important -->
+            </div>
+        </label>
+<br>
+        <label for="Age">
+            <div>
+               Age: <input type="number" name="Enteremail" id="Age" required min="0" max="150" placeholder="22">
+            </div>
+            
+        </label>
+        <br>
+        <label for="Gender">
+            <div>
+               Gender:    Male<input type="radio" name="genderpls" id="Gender" > female<input type="radio" name="genderpls" id="Gender"/> Others<input type="radio" name="genderpls" id="Gender" required/> 
+            </div>
+            
+        </label>
+        <br>
+        <label for="Termsand condition">
+            <div>
+              Terms and Condition : <input type="checkbox" name="check the box" id="Termsand condition"  required >     I Agree to Terms and Conditions>   </div>
+            
+        </label>
+       
+        <div class="button">
+            <input type="submit" value="Submit" >
+        </div>
+
+    </form>
+</body>
+</html>
