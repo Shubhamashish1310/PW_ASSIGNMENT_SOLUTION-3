@@ -4,7 +4,7 @@
 
 
 # Solution 2
-![autdio video](image-6.png)
+![audio video](image-6.png)
 
 # Solution 3
 ![Infinitely playback](image-3.png)
