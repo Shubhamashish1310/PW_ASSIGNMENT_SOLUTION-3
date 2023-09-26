@@ -1,0 +1,68 @@
+<!-- Ka Create a sign-up and sign-in form with proper validationa
+Ua Sign up form should have a first name, last name, email, password, confirm password, age, gender, 
+and agree to terms and conditions fields at minimum (You can add any other if you like.
+a Sign in form should have email, password fields  
+NOTE: Validation is a must  
+Ex: First name, last name, email cannot be less than 3 characters, age cannot be negative and cannot be 
+greater than 150, fields are required, etc..,
+Assignment Question -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <style>
+        body{
+            border: 2px solid black;
+            border-radius: 23px;
+            margin: 12px;
+            padding: 20px;
+            display: inline-block;
+            background-color: rgb(223, 245, 242);
+        }
+
+        .button{
+            display: block;
+            padding-top: 10px;
+            text-align: center;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign In Form</h1>
+  <form action="https://accounts.pwskills.com/profile">   <!-- for backend storage  --> 
+
+        
+        <br>
+        <label for="Email">
+            <div>
+               Email: <input type="email" name="Enteremail" id="Email"  placeholder="shubham.ashish13@gmail.com" required/>
+            </div>
+            
+        </label>
+        <br>
+        <label for="Password">
+            <div>
+               Password: <input type="password" name="EnterPassword" id="Email" minlength="8" max="20" placeholder="**********" required/>
+            </div>
+        </label>
+
+        <br>
+        <label for="Termsand condition">
+            <div>
+              Terms and Condition : <input type="checkbox" name="check the box" id="Termsand condition"  required >     I Agree to Terms and Conditions>   </div>
+            
+        </label>
+       
+        <div class="button">
+            <input type="submit" value="Submit" >
+        </div>
+
+    </form>
+</body>
+</html>
