@@ -14,7 +14,7 @@
 
 
 # Solution 5 Sign UP
-![Sign Up](image-5.png)
+![Sign Up](image-8.png)
 
 # Solution 5  Sign In
 
