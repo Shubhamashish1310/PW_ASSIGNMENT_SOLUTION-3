@@ -15,6 +15,7 @@
 
 # Solution 5 Sign UP
 ![Sign Up](image-8.png)
+[both in same ](image-2.png)
 
 # Solution 5  Sign In
 
